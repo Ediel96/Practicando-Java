@@ -1,4 +1,9 @@
 # Practicing-Java-JSP
 
+adding commando  --  (ssh-keygen)
 
-https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+we go to the folder  = "thisPc/LocalDisk(C:)/User/Darkg/.ssh"
+
+we open notepad the archive (id_rsa.pub)
+
+come to website "github.com" setting => SHH and GPD keys => new SHH key
