@@ -9,8 +9,17 @@
     </h:head>
     <h:body>
         <h:form>
-            
-            <p:button></p:button>
+            <p:growl id="mensaje" sticky="true" showDetail="true"/>
+                <h:panelGrid columns="2" />
+                <p:outputLabel value="documeto" />
+                <p:inputNumber value="" decimalPlaces="0"/>
+                <p:outputLabel value="nombre"/>
+                <p:inputText value=""/>
+                <p:outputLabel value="cursos"/>
+                <p:selectOneMenu value="" >
+                    <f:selectItem value=""/>
+                </p:selectOneMenu> 
+                <p:commandButton value="matricular" />
         </h:form>
     </h:body>
 </html>
